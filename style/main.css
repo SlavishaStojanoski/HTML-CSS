@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+:root {
+  --main-color:#007AF3;
+}
+
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px;
+}
+
+.navbar .logo {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar .logo span {
+  color: var(--main-color);
+}
+
+.navbar .nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.firstSection {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.firstSection a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 1em;
+  padding-left: 5px;
+}
+
+.firstSection sub {
+  font-size: 1.3em;
+  letter-spacing: .3em;
+  font-weight: bold;
+  color: #808080;
+}
+
+.firstSection h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-top: 0.5em;
+  line-height: 1em;
+}
+
+.firstSection .btnTry {
+  background: var(--main-color);
+  border-radius: 1px solid black;
+  padding: 0.9em;
+  border-radius: 5em;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.firstSection .watchTutorial {
+  display: block;
+  margin: 3em;
+}
+
+.firstSection .watchTutorial img {
+  padding-right: 0.5em;
+}
+/*# sourceMappingURL=main.css.map */

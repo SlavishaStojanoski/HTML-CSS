@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Frontend 2021</title>
 </head>
+
 <body>
-    
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Some<span>Logo</span></a>
+
+            <img id="mobile" class="mobileMenu" src="./images/menu.svg" alt="menu icon">
+
+            <div class="nav">
+                <nav>
+                    <ul class="firstNav">
+                        <li class="actual"><a href="section1">Home</a></li>
+                        <li><a href="section2">Features</a></li>
+                        <li><a href="#">Price</a></li>
+                    </ul>
+                    <ul class="secondaryNav">
+                        <li><a href="contact">Contact</a></li>
+                        <li class="tryPremiumBtn"><a href="#">Try Premium</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section id="section1" class="firstSection">
+        <div class="container">
+            <div class="leftContent">
+                <sub>This is suptitle</sub>
+                <h1>App for practice HTML and CSS</h1>
+            </div>
+            <div class="btnntutorial">
+                <a class="btnTry" href="#">Try 1 Month FREE!!</a>
+                <a class="watchTutorial" href="#"><img src="./images/watch.svg" alt="camera icon">Watch tutorials!!</a>
+            </div>
+            <img src="./images/illustration.svg" alt="some ilustration">
+        </div>
+    </section>
+
+    <section id="section2" class="secondSection">
+        <div class="container">
+            <ul class="">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Confetti Explosions upon Task Completions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other awesome features</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="peoples">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="./images/person.jpg" alt="John">
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque eius officia vel
+                        exercitationem odit? Perferendis illum consequatur saepe deleniti! Vitae consequatur magnam
+                        nulla maxime dolor? Nihil, corrupti? Omnis, expedita.</blockquote>
+                    <cite>John</cite>
+                </li>
+                <li>
+                    <img src="./images/person.jpg" alt="John">
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque eius officia vel
+                        exercitationem odit? Perferendis illum consequatur saepe deleniti! Vitae consequatur magnam
+                        nulla maxime dolor? Nihil, corrupti? Omnis, expedita.</blockquote>
+                    <cite>John</cite>
+                </li>
+                <li>
+                    <img src="./images/person.jpg" alt="John">
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque eius officia vel
+                        exercitationem odit? Perferendis illum consequatur saepe deleniti! Vitae consequatur magnam
+                        nulla maxime dolor? Nihil, corrupti? Omnis, expedita.</blockquote>
+                    <cite>John</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contentLeft">
+                <h1>Contact</h1>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Please enter your name!">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Your message leave here"></textarea>
+                    <input class="btnSendMessage" type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contentRight">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47588.22212211799!2d20.873647201192416!3d41.801075482236456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1351577a0fe3dbdd%3A0x39f635036d650174!2sGostivar!5e0!3m2!1sen!2smk!4v1614027781475!5m2!1sen!2smk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
